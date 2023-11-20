@@ -1,0 +1,15 @@
+modify:
+{
+	match:
+	{
+		"model" "*92"
+	}
+	replace:
+	{
+		"classname" "trigger_push"
+	}
+	insert:
+	{
+		"speed" "2000"
+	}
+}

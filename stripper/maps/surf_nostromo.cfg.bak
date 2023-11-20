@@ -1,0 +1,38 @@
+modify:
+{
+	match:
+	{
+		"hammerid" "561122"
+		"targetname" "bonus1_tp01_b_dest"
+	}
+	replace:
+	{
+		"angles" "0 0 0"
+	}
+}
+
+modify:
+{
+	match:
+	{
+		"hammerid" "561120"
+		"targetname" "bonus1_tp01_a_dest"
+	}
+	replace:
+	{
+		"angles" "0 0 0"
+	}
+}
+
+modify:
+{
+	match:
+	{
+		"classname" "trigger_teleport"
+	}
+	
+	insert:
+	{
+		"UseLandmarkAngles" "0"
+	}
+}
